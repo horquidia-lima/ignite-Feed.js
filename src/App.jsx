@@ -8,7 +8,7 @@ import './global.css'
 
 export function App() {
   return (
-    <>
+    <div>
       <Header/>
 
       <div className={styles.wrapper}>
@@ -17,7 +17,7 @@ export function App() {
           <Post />
         </main>
       </div>
-    </>
+    </div>
   )
 }
 
