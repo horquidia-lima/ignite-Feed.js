@@ -9,21 +9,23 @@ export function Comment(){
             <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
-                        <div className={styles.authorAnndTime}>
+                        <div className={styles.authorAndTime}>
                             <strong>Horquidia Lima</strong>
                             <time title='01 de Abril' dateTime='2024-04-01 08:13:30'>Cerca de 1h</time>
                         </div>
 
                         <button title='Deletar comentario'>
-                            <Trash size={20}/>
+                            <Trash size={24}/>
                         </button>
                     </header>
                     <p>Muito bom Devon, parabéns!! 👏👏</p>
                 </div>
 
                 <footer>
-                    <ThumbsUp/>
-                    Aplaudir <span>20</span>
+                    <button>
+                        <ThumbsUp/>
+                        Aplaudir <span>20</span>
+                    </button>
                 </footer>
             </div>
         </div>
